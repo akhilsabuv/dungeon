@@ -1,0 +1,366 @@
+[
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Lightning Bolt",
+    "Quantity": 4,
+    "type": "Attack",
+    "characterImage": "azzan/12.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Knowledge is Power",
+    "Quantity": 3,
+    "type": "Draw",
+    "characterImage": "azzan/11.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Stoneskin",
+    "Quantity": 1,
+    "type": "Defense",
+    "characterImage": "azzan/10.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Burning Hands",
+    "Quantity": 3,
+    "type": "Attack (area)",
+    "characterImage": "azzan/9.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Magic Missile",
+    "Quantity": 3,
+    "type": "Attack",
+    "characterImage": "azzan/8.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Evil Sneer",
+    "Quantity": 2,
+    "type": "Debuff",
+    "characterImage": "azzan/7.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Vampiric Touch",
+    "Quantity": 2,
+    "type": "Attack + Heal",
+    "characterImage": "azzan/6.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Speed of Thought",
+    "Quantity": 3,
+    "type": "Play Again",
+    "characterImage": "azzan/5.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Mirror Image",
+    "Quantity": 1,
+    "type": "Defense",
+    "characterImage": "azzan/4.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Fireball",
+    "Quantity": 2,
+    "type": "Attack (area)",
+    "characterImage": "azzan/3.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Charm",
+    "Quantity": 2,
+    "type": "Control",
+    "characterImage": "azzan/2.png"
+  },
+  {
+    "Character": "Azzan the Mystic",
+    "Card Name": "Shield",
+    "Quantity": 2,
+    "type": "Defense",
+    "characterImage": "azzan/1.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Fighting Words",
+    "Quantity": 3,
+    "type": "Attack",
+    "characterImage": "lia/2.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Divine Shield",
+    "Quantity": 2,
+    "type": "Defense",
+    "characterImage": "lia/1.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Fluffy",
+    "Quantity": 1,
+    "type": "Summon/Unique",
+    "characterImage": "lia/3.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Spinning Parry",
+    "Quantity": 2,
+    "type": "Defense + Counter",
+    "characterImage": "lia/4.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Cure Wounds",
+    "Quantity": 1,
+    "type": "Heal",
+    "characterImage": "lia/5.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Divine Smite",
+    "Quantity": 3,
+    "type": "Attack",
+    "characterImage": "lia/6.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "For Even More Justice!",
+    "Quantity": 4,
+    "type": "Combo Attack",
+    "characterImage": "lia/13.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "For Justice!",
+    "Quantity": 3,
+    "type": "Attack",
+    "characterImage": "lia/7.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Divine Inspiration",
+    "Quantity": 2,
+    "type": "Draw or Buff",
+    "characterImage": "lia/8.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "For the Most Justice!",
+    "Quantity": 2,
+    "type": "Ultimate Attack",
+    "characterImage": "lia/9.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "High Charisma",
+    "Quantity": 2,
+    "type": "Buff/Control",
+    "characterImage": "lia/10.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Finger-wag of Judgement",
+    "Quantity": 2,
+    "type": "Debuff",
+    "characterImage": "lia/11.png"
+  },
+  {
+    "Character": "Lia the Radiant",
+    "Card Name": "Banishing Smite",
+    "Quantity": 1,
+    "type": "Remove card",
+    "characterImage": "lia/12.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Winged Serpent",
+    "Quantity": 2,
+    "type": "Summon",
+    "characterImage": "oriax/2.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "My Little Friend",
+    "Quantity": 1,
+    "type": "Summon/Unique",
+    "characterImage": "oriax/1.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Clever Disguise",
+    "Quantity": 2,
+    "type": "Defense/Evasion",
+    "characterImage": "oriax/3.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Two Thrown Daggers",
+    "Quantity": 4,
+    "type": "Attack",
+    "characterImage": "oriax/4.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "One Thrown Dagger",
+    "Quantity": 5,
+    "type": "Attack",
+    "characterImage": "oriax/5.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "The Goon Squad",
+    "Quantity": 2,
+    "type": "Summon",
+    "characterImage": "oriax/6.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Sneak Attack!",
+    "Quantity": 2,
+    "type": "High Damage",
+    "characterImage": "oriax/7.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Even More Daggers",
+    "Quantity": 1,
+    "type": "Multi Attack",
+    "characterImage": "oriax/8.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Stolen Potion",
+    "Quantity": 2,
+    "type": "Heal/Steal",
+    "characterImage": "oriax/9.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Cunning Action",
+    "Quantity": 2,
+    "type": "Play Again",
+    "characterImage": "oriax/10.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "All the Thrown Daggers",
+    "Quantity": 3,
+    "type": "Multi Attack",
+    "characterImage": "oriax/11.png"
+  },
+  {
+    "Character": "Oriax the Clever",
+    "Card Name": "Pick Pocket",
+    "Quantity": 2,
+    "type": "Steal",
+    "characterImage": "oriax/12.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Mighty Toss",
+    "Quantity": 2,
+    "type": "Attack/Throw",
+    "characterImage": "oriax/1.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Battle Roar",
+    "Quantity": 2,
+    "type": "AoE/Discard",
+    "characterImage": "sutha/2.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Whirling Axes",
+    "Quantity": 2,
+    "type": "AoE Attack",
+    "characterImage": "sutha/3.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Flex",
+    "Quantity": 2,
+    "type": "Buff",
+    "characterImage": "sutha/4.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Snack Time",
+    "Quantity": 1,
+    "type": "Heal",
+    "characterImage": "sutha/5.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Open the Armory",
+    "Quantity": 2,
+    "type": "Draw/Equip",
+    "characterImage": "sutha/6.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Two Axes are Better Than One",
+    "Quantity": 2,
+    "type": "Dual Attack",
+    "characterImage": "sutha/7.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Raff",
+    "Quantity": 1,
+    "type": "Summon/Unique",
+    "characterImage": "sutha/8.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Riff",
+    "Quantity": 1,
+    "type": "Summon/Unique",
+    "characterImage": "sutha/9.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Spiked Shield",
+    "Quantity": 1,
+    "type": "Defense + Damage",
+    "characterImage": "sutha/10.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Bag of Rats",
+    "Quantity": 1,
+    "type": "Damage",
+    "characterImage": "sutha/11.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Rage!",
+    "Quantity": 2,
+    "type": "Buff Attack",
+    "characterImage": "sutha/12.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Big Axe is Best Axe",
+    "Quantity": 5,
+    "type": "Strong Attack",
+    "characterImage": "sutha/13.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Brutal Punch",
+    "Quantity": 2,
+    "type": "Melee Attack",
+    "characterImage": "sutha/14.png"
+  },
+  {
+    "Character": "Sutha the Skullcrusher",
+    "Card Name": "Head Butt",
+    "Quantity": 2,
+    "type": "Melee Attack",
+    "characterImage": "sutha/15.png"
+  }
+]

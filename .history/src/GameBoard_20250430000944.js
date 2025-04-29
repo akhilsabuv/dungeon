@@ -113,7 +113,7 @@ function GameBoard() {
               className="w-[150px] h-[220px] bg-white rounded-xl shadow-md hover:shadow-xl cursor-pointer border flex flex-col items-center p-2"
             >
               <img
-                src={`/assets/cards/${card.characterImage}`} 
+                src={`https://via.placeholder.com/120x100?text=${encodeURIComponent(card.name)}`}
                 alt={card.name}
                 className="w-[120px] h-[100px] object-cover rounded"
               />

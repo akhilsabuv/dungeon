@@ -22,14 +22,12 @@ const initialPlayers = [
   }
 ];
 
-const sampleDeck = cardsData; // full deck from JSON
-
-// const sampleDeck = [
-//   { name: 'Lightning Bolt', type: 'Attack', quantity: 4, effect: 1 },
-//   { name: 'Shield', type: 'Defense', quantity: 2, effect: 1 },
-//   { name: 'Speed of Thought', type: 'Play Again', quantity: 2, effect: 1 },
-//   { name: 'Vampiric Touch', type: 'Attack + Heal', quantity: 2, effect: 1 }
-// ];
+const sampleDeck = [
+  { name: 'Lightning Bolt', type: 'Attack', quantity: 4, effect: 1 },
+  { name: 'Shield', type: 'Defense', quantity: 2, effect: 1 },
+  { name: 'Speed of Thought', type: 'Play Again', quantity: 2, effect: 1 },
+  { name: 'Vampiric Touch', type: 'Attack + Heal', quantity: 2, effect: 1 }
+];
 
 function drawCard(player) {
   if (player.deck.length === 0) {
@@ -113,7 +111,7 @@ function GameBoard() {
               className="w-[150px] h-[220px] bg-white rounded-xl shadow-md hover:shadow-xl cursor-pointer border flex flex-col items-center p-2"
             >
               <img
-                src={`/assets/cards/${card.characterImage}`} 
+                src={`https://via.placeholder.com/120x100?text=${encodeURIComponent(card.name)}`}
                 alt={card.name}
                 className="w-[120px] h-[100px] object-cover rounded"
               />
