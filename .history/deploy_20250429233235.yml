@@ -1,0 +1,41 @@
+name: Deploy React App (Docker)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Deploy to Server and Restart Docker
+      uses: appleboy/ssh-action@v0.1.6
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.SERVER_USER }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        script: |
+          cd /home/ubuntu/dungeon
+
+          echo "Pulling latest code..."
+          git pull origin main
+
+          echo "Installing dependencies..."
+          npm install
+
+          echo "Building React app..."
+          npm run build
+
+          echo "Building Docker image..."
+          sudo docker build -t dungeon-react-app .
+
+          echo "Stopping and removing old container if it exists..."
+          sudo docker rm -f dungeon-react-app-1 || true
+
+          echo "Running new Docker container..."
+          sudo docker run -d --restart unless-stopped --name dungeon-react-app-1 -p 3000:80 dungeon-react-app
