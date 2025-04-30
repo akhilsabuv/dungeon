@@ -112,7 +112,7 @@ function GameBoard() {
 
   return (
     <div className="container-fluid bg-dark text-light min-vh-100 py-5 position-relative">
-      <audio ref={audioRef} src="/assets/music/background.mp3" muted autoPlay />
+      <audio ref={audioRef} src="/assets/music/background.mp3" />
 
       <button
         className="btn btn-sm btn-warning position-absolute top-0 end-0 m-3 shadow"
